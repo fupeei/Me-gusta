@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-size: 25px;
+}
+.navcontenedor {
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+}
+.nav {
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    width: 730px;
+    margin-left: 410px;
+}
+.yourfeed {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+.perfil{
+    border: 3px black solid;
+    width: 120px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+
+
+}
+.perfil img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+.perfil h2 {
+    margin-top: 20px;
+}
+.perfil a {
+    font-size: 19px;
+    font-weight: bold;
+}
+.tweet {
+    border: 3px black solid;
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text p {
+    margin-top: 20px;
+}
+button {
+    color: black;
+    background-color: gold;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    width:100px;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 4px 4px 0px black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tweetscont {
+    font-display: flex;
+    flex-direction: column;
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+a {
+    color: cornflowerblue;
+}
